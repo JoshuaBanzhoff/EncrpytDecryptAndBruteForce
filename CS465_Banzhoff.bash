@@ -34,6 +34,7 @@ avgDesDecTime=$(($totalDesDecTime/$(($i*10000))))
 echo " "
 echo "Average DES Encryption time: .$avgDesEncTime seconds"
 echo "Average DES Decryption time: .$avgDesDecTime seconds"
+echo "Number of samples: $i"
 
 echo " "
 echo " "
@@ -68,6 +69,7 @@ avgDes3DecTime=$(($totalDes3DecTime/$(($i*10000))))
 echo " "
 echo "Average 3DES encryption time: .$avgDes3EncTime seconds"
 echo "Average 3DES decryption time: .$avgDes3DecTime seconds"
+echo "Number of samples: $i"
 
 echo " "
 echo " "
@@ -102,6 +104,7 @@ avgAes128DecTime=$(($totalAes128DecTime/$(($i*10000))))
 echo " "
 echo "Average AES-128 encryption time: .$avgAes128EncTime seconds"
 echo "Average AES-128 decryption time: .$avgAes128DecTime seconds"
+echo "Number of samples: $i"
 
 echo " "
 echo " "
